@@ -14,6 +14,7 @@
 		E9306D841DE02DDD00CCD989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9306D821DE02DDD00CCD989 /* LaunchScreen.storyboard */; };
 		E9306D8F1DE02DDD00CCD989 /* tiptextfild1119Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9306D8E1DE02DDD00CCD989 /* tiptextfild1119Tests.swift */; };
 		E9306D9A1DE02DDD00CCD989 /* tiptextfild1119UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9306D991DE02DDD00CCD989 /* tiptextfild1119UITests.swift */; };
+		E9306DA81DE02E4400CCD989 /* tipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9306DA71DE02E4300CCD989 /* tipViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E9306D761DE02DDD00CCD989 /* tiptextfild1119.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiptextfild1119.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9306D761DE02DDD00CCD989 /* 11225A.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 11225A.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9306D791DE02DDD00CCD989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9306D7B1DE02DDD00CCD989 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9306D7E1DE02DDD00CCD989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9306D801DE02DDD00CCD989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9306D831DE02DDD00CCD989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9306D851DE02DDD00CCD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9306D8A1DE02DDD00CCD989 /* tiptextfild1119Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiptextfild1119Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9306D8A1DE02DDD00CCD989 /* 11225ATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11225ATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9306D8E1DE02DDD00CCD989 /* tiptextfild1119Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiptextfild1119Tests.swift; sourceTree = "<group>"; };
 		E9306D901DE02DDD00CCD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E9306D951DE02DDD00CCD989 /* tiptextfild1119UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiptextfild1119UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9306D951DE02DDD00CCD989 /* 11225AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 11225AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9306D991DE02DDD00CCD989 /* tiptextfild1119UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiptextfild1119UITests.swift; sourceTree = "<group>"; };
 		E9306D9B1DE02DDD00CCD989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9306DA71DE02E4300CCD989 /* tipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tipViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		E9306D6D1DE02DDD00CCD989 = {
 			isa = PBXGroup;
 			children = (
-				E9306D781DE02DDD00CCD989 /* tiptextfild1119 */,
-				E9306D8D1DE02DDD00CCD989 /* tiptextfild1119Tests */,
-				E9306D981DE02DDD00CCD989 /* tiptextfild1119UITests */,
+				E9306D781DE02DDD00CCD989 /* 11225A counter */,
+				E9306D8D1DE02DDD00CCD989 /* 1120counter Tests */,
+				E9306D981DE02DDD00CCD989 /* 1120counter UITests */,
 				E9306D771DE02DDD00CCD989 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,50 +89,54 @@
 		E9306D771DE02DDD00CCD989 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9306D761DE02DDD00CCD989 /* tiptextfild1119.app */,
-				E9306D8A1DE02DDD00CCD989 /* tiptextfild1119Tests.xctest */,
-				E9306D951DE02DDD00CCD989 /* tiptextfild1119UITests.xctest */,
+				E9306D761DE02DDD00CCD989 /* 11225A.app */,
+				E9306D8A1DE02DDD00CCD989 /* 11225ATests.xctest */,
+				E9306D951DE02DDD00CCD989 /* 11225AUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E9306D781DE02DDD00CCD989 /* tiptextfild1119 */ = {
+		E9306D781DE02DDD00CCD989 /* 11225A counter */ = {
 			isa = PBXGroup;
 			children = (
 				E9306D791DE02DDD00CCD989 /* AppDelegate.swift */,
 				E9306D7B1DE02DDD00CCD989 /* ViewController.swift */,
 				E9306D7D1DE02DDD00CCD989 /* Main.storyboard */,
+				E9306DA71DE02E4300CCD989 /* tipViewController.swift */,
 				E9306D801DE02DDD00CCD989 /* Assets.xcassets */,
 				E9306D821DE02DDD00CCD989 /* LaunchScreen.storyboard */,
 				E9306D851DE02DDD00CCD989 /* Info.plist */,
 			);
+			name = "11225A counter";
 			path = tiptextfild1119;
 			sourceTree = "<group>";
 		};
-		E9306D8D1DE02DDD00CCD989 /* tiptextfild1119Tests */ = {
+		E9306D8D1DE02DDD00CCD989 /* 1120counter Tests */ = {
 			isa = PBXGroup;
 			children = (
 				E9306D8E1DE02DDD00CCD989 /* tiptextfild1119Tests.swift */,
 				E9306D901DE02DDD00CCD989 /* Info.plist */,
 			);
+			name = "1120counter Tests";
 			path = tiptextfild1119Tests;
 			sourceTree = "<group>";
 		};
-		E9306D981DE02DDD00CCD989 /* tiptextfild1119UITests */ = {
+		E9306D981DE02DDD00CCD989 /* 1120counter UITests */ = {
 			isa = PBXGroup;
 			children = (
 				E9306D991DE02DDD00CCD989 /* tiptextfild1119UITests.swift */,
 				E9306D9B1DE02DDD00CCD989 /* Info.plist */,
 			);
+			name = "1120counter UITests";
 			path = tiptextfild1119UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9306D751DE02DDD00CCD989 /* tiptextfild1119 */ = {
+		E9306D751DE02DDD00CCD989 /* 11225A */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9306D9E1DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119" */;
+			buildConfigurationList = E9306D9E1DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225A" */;
 			buildPhases = (
 				E9306D721DE02DDD00CCD989 /* Sources */,
 				E9306D731DE02DDD00CCD989 /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = tiptextfild1119;
+			name = 11225A;
 			productName = tiptextfild1119;
-			productReference = E9306D761DE02DDD00CCD989 /* tiptextfild1119.app */;
+			productReference = E9306D761DE02DDD00CCD989 /* 11225A.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E9306D891DE02DDD00CCD989 /* tiptextfild1119Tests */ = {
+		E9306D891DE02DDD00CCD989 /* 11225ATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9306DA11DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119Tests" */;
+			buildConfigurationList = E9306DA11DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225ATests" */;
 			buildPhases = (
 				E9306D861DE02DDD00CCD989 /* Sources */,
 				E9306D871DE02DDD00CCD989 /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				E9306D8C1DE02DDD00CCD989 /* PBXTargetDependency */,
 			);
-			name = tiptextfild1119Tests;
+			name = 11225ATests;
 			productName = tiptextfild1119Tests;
-			productReference = E9306D8A1DE02DDD00CCD989 /* tiptextfild1119Tests.xctest */;
+			productReference = E9306D8A1DE02DDD00CCD989 /* 11225ATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E9306D941DE02DDD00CCD989 /* tiptextfild1119UITests */ = {
+		E9306D941DE02DDD00CCD989 /* 11225AUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9306DA41DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119UITests" */;
+			buildConfigurationList = E9306DA41DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225AUITests" */;
 			buildPhases = (
 				E9306D911DE02DDD00CCD989 /* Sources */,
 				E9306D921DE02DDD00CCD989 /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				E9306D971DE02DDD00CCD989 /* PBXTargetDependency */,
 			);
-			name = tiptextfild1119UITests;
+			name = 11225AUITests;
 			productName = tiptextfild1119UITests;
-			productReference = E9306D951DE02DDD00CCD989 /* tiptextfild1119UITests.xctest */;
+			productReference = E9306D951DE02DDD00CCD989 /* 11225AUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					E9306D751DE02DDD00CCD989 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = TA2SG93UPG;
 						ProvisioningStyle = Automatic;
 					};
 					E9306D891DE02DDD00CCD989 = {
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9306D711DE02DDD00CCD989 /* Build configuration list for PBXProject "tiptextfild1119" */;
+			buildConfigurationList = E9306D711DE02DDD00CCD989 /* Build configuration list for PBXProject "11225A" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9306D751DE02DDD00CCD989 /* tiptextfild1119 */,
-				E9306D891DE02DDD00CCD989 /* tiptextfild1119Tests */,
-				E9306D941DE02DDD00CCD989 /* tiptextfild1119UITests */,
+				E9306D751DE02DDD00CCD989 /* 11225A */,
+				E9306D891DE02DDD00CCD989 /* 11225ATests */,
+				E9306D941DE02DDD00CCD989 /* 11225AUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +268,7 @@
 			files = (
 				E9306D7C1DE02DDD00CCD989 /* ViewController.swift in Sources */,
 				E9306D7A1DE02DDD00CCD989 /* AppDelegate.swift in Sources */,
+				E9306DA81DE02E4400CCD989 /* tipViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		E9306D8C1DE02DDD00CCD989 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9306D751DE02DDD00CCD989 /* tiptextfild1119 */;
+			target = E9306D751DE02DDD00CCD989 /* 11225A */;
 			targetProxy = E9306D8B1DE02DDD00CCD989 /* PBXContainerItemProxy */;
 		};
 		E9306D971DE02DDD00CCD989 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E9306D751DE02DDD00CCD989 /* tiptextfild1119 */;
+			target = E9306D751DE02DDD00CCD989 /* 11225A */;
 			targetProxy = E9306D961DE02DDD00CCD989 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA2SG93UPG;
 				INFOPLIST_FILE = tiptextfild1119/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ya.tiptextfild1119;
+				PRODUCT_BUNDLE_IDENTIFIER = ya.1120counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TA2SG93UPG;
 				INFOPLIST_FILE = tiptextfild1119/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ya.tiptextfild1119;
+				PRODUCT_BUNDLE_IDENTIFIER = ya.1120counter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ya.tiptextfild1119Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiptextfild1119.app/tiptextfild1119";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11225A.temp_caseinsensitive_rename.app/11225A.temp_caseinsensitive_rename";
 			};
 			name = Debug;
 		};
@@ -456,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ya.tiptextfild1119Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiptextfild1119.app/tiptextfild1119";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/11225A.temp_caseinsensitive_rename.app/11225A.temp_caseinsensitive_rename";
 			};
 			name = Release;
 		};
@@ -489,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9306D711DE02DDD00CCD989 /* Build configuration list for PBXProject "tiptextfild1119" */ = {
+		E9306D711DE02DDD00CCD989 /* Build configuration list for PBXProject "11225A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9306D9C1DE02DDD00CCD989 /* Debug */,
@@ -498,29 +508,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9306D9E1DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119" */ = {
+		E9306D9E1DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225A" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9306D9F1DE02DDD00CCD989 /* Debug */,
 				E9306DA01DE02DDD00CCD989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E9306DA11DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119Tests" */ = {
+		E9306DA11DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225ATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9306DA21DE02DDD00CCD989 /* Debug */,
 				E9306DA31DE02DDD00CCD989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E9306DA41DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "tiptextfild1119UITests" */ = {
+		E9306DA41DE02DDD00CCD989 /* Build configuration list for PBXNativeTarget "11225AUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9306DA51DE02DDD00CCD989 /* Debug */,
 				E9306DA61DE02DDD00CCD989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
